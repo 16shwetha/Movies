@@ -1,0 +1,47 @@
+body{
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url("http://www.hdwallpaperspulse.com/wp-content/uploads/2013/07/29/hd-wallpaper-free-download-281.jpg");
+}
+
+
+
+#movie-wrapper{
+    width: 80%;
+    background-image: url("http://www.pixelstalk.net/wp-content/uploads/2016/08/Desktop-Best-Background-Images.jpg");
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+#movie-card{
+    width: calc( 25% - 2px - 30px);
+    border: 1px solid rgb(233, 220, 220);
+    text-align: center;
+    margin: 10px 15px;
+    border-radius: 10px;
+    
+}
+.movie-image{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+}
+#movie-name{
+    border-radius: 8px;
+    font-style: italic;
+    color: black;
+    background-color: rgb(97, 204, 231);
+    padding: 10px;
+
+}
+#btn{
+    border-radius: 8px;
+    background-color: rgb(114, 203, 238);
+    padding: 10px;
+}
+#movie-status{
+    color: white;
+}
+p{
+    color: aliceblue;
+}
